@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //pangkat
+        let angka = prompt("masukan angka1:");
+        let angka2 = prompt("masukan angka2:");
+        function perpangkatan(angka,angka2){
+            return angka**angka2
+        }
+        let hasil = perpangkatan(angka,angka2);
+        console.log(hasil)
+        //ganjil-genap
+        function cekganjilgenap(angka3){
+          if (angka3 % 2 == 0){
+            console.log ("genap");
+          }
+          else {
+            console.log("ganjil");
+          }
+        }
+          console.log(cekganjilgenap (5)) ;
+          console.log(cekganjilgenap (8)) ;
+    </script>
+</body>
+</html>
